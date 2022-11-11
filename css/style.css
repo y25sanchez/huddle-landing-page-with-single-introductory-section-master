@@ -94,6 +94,21 @@ body {
     height: 3rem;
     border: 1.5px solid white;
     border-radius: 50%;
+    transition: scale 0.3s ease;
+}
+
+.container__social__img a{
+    color: var(--white);
+}
+
+
+.container__social__img:hover{
+    border: 1.5px solid var(--Soft-Magenta);
+    scale: 1.1;
+}
+.container__social__img:hover i {
+    color: var(--Soft-Magenta);
+
 }
 
 footer{
@@ -105,7 +120,7 @@ footer{
 
 .attribution a{
     text-decoration: none;
-    color: var(--Violet);
+    color: var(--white);
     background-color: var(--Soft-Magenta);
     border-radius: 3rem;
     padding: 0.5rem 1rem;
@@ -157,4 +172,11 @@ footer{
     .container__social{
         justify-content: end;
     }
+
+    footer{
+
+        font-size: 2rem;
+    }
+
+    
 }
